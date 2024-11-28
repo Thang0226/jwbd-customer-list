@@ -14,7 +14,7 @@
     List<Customer> list = new ArrayList<>();
 
 	list.add(new Customer("Thang", "1999-12-12", "Ha Noi", "pictures/pic1.jpg"));
-	list.add(new Customer("Tri", "2002-12-12", "Ha Noi", "pictures/pic2.jpg"));
+	list.add(new Customer("Tri", "2002-12-12", "Ha Noi", "pictures/pic2.jpeg"));
 	list.add(new Customer("Dung", "1994-12-12", "Ha Noi", "pictures/pic3.jpg"));
 
 	request.setAttribute("customerList", list);
